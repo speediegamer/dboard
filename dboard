@@ -2051,6 +2051,15 @@ printf "あ a
 を wo"
 }
 
+ROMANIAN_CHARACTERS_LIST()
+{
+printf "ă
+â
+î
+ș
+ț"
+}
+
 JAPANESECOPY()
 {
   JAPANESE_LETTER_CHOICE="$(printf "$(JAPANESE_CHARACTERS_LIST)" | dmenu -l 5 -p 'Pick a character: ' | awk '{ print $1 }')"
@@ -2086,6 +2095,12 @@ SWEDISHFINNISHCOPY()
    SWEDISH_LETTER_CHOICE="$(printf "$(SWEDISH_FINNISH_CHARACTERS_LIST)" | dmenu -l 5 -p 'Pick a character: ')"
    printf "$SWEDISH_LETTER_CHOICE" | xclip -selection clipboard && notify-send "$SWEDISH_LETTER_CHOICE copied to clipboard."
 } 
+
+ROMANIANCOPY()
+{
+   ROMANIAN_LETTER_CHOICE="$(printf "$(ROMANIAN_CHARACTERS_LIST)" | dmenu  -l 5 -p 'Pick a character: ')"
+   printf "$ROMANIAN_LETTER_CHOICE" | xclip -selection clipboard && notify-send "$SROMANIAN_LETTER_CHOICE copied to clipboard."
+}
  
 COPYPASTALIST()
 { 
@@ -2119,7 +2134,7 @@ DBOARD_ABOUT()
 ###########################################################
  
 # Ask the user what they wanna do
-ACTION=$(printf "Emoji\nCopypasta\nSwedish/Finnish letters\nSpanish letters\nChinese letters\nJapanese letters\nBaybain letters\nArabic letters\nCredits\nAbout\nExit" | dmenu -p 'What would you like to copy?' -l 20)
+ACTION=$(printf "Emoji\nCopypasta\nSwedish/Finnish letters\nSpanish letters\nChinese letters\nJapanese letters\nBaybain letters\nArabic letters\nRomanian letters\nCredits\nAbout\nExit" | dmenu -p 'What would you like to copy?' -l 20)
  
 if [ "$ACTION" = "Emoji" ]; then
 EMOJICOPY
@@ -2137,6 +2152,8 @@ elif [ "$ACTION" = "Baybain letters" ]; then
 BAYBAINCOPY
 elif [ "$ACTION" = "Arabic letters" ]; then
 ARABICCOPY
+elif [ "$ACTION" = "Romanian letters" ]; then
+ROMANIANCOPY
 elif [ "$ACTION" = "Credits" ]; then
 CREDIT_SEL=$(printf "$(DBOARD_CREDITS)" | dmenu -p 'dboard was created with the help of and by: ' -l 20 -g 1)
 case "$CREDIT_SEL" in
@@ -2145,6 +2162,7 @@ case "$CREDIT_SEL" in
 "Luke Smith - The idea") $BROWSER 'https://lukesmith.xyz' ;;
 "Lucss21a - Baybayin characters") $BROWSER 'https://alexisgaming95.neocities.org' ;;
 "Damaj301Damaj - Arabic characters") $BROWSER 'https://github.com/Damaj301damaj-lol' ;;
+"Gabubu - Romanian characters") $BROWSER 'https://github.com/GabubuAvailable' ;;
 esac
 elif [ "$ACTION" = "Exit" ]; then
 exit 0
