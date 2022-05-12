@@ -18,6 +18,7 @@ Luke Smith's version only works with emojis, and flag emojis (and other emojis t
 - Japanese characters
 - Baybain characters
 - Arabic characters
+- Romanian characters
 
 ## Installation
 - Download the script and put it in /usr/bin, /usr/local/bin or any other place that's defined in your $PATH variable.
