@@ -72,8 +72,8 @@ printf "🙂 Slightly smiling face
 🙁 Slightly frowning face
 ☹ Frowning face
 😮 Face with open mouth
-😯 Hushed face	
-😲 Astonished face	
+😯 Hushed face
+😲 Astonished face
 😳 Flushed face
 🥺 Begging face
 😦 Frowning face with open mouth
@@ -81,7 +81,7 @@ printf "🙂 Slightly smiling face
 😨 Fearful face
 😰 Anxious face with sweat	
 😥 Sad but relieved face
-😢 Crying face	
+😢 Crying face
 😭 Loudly crying face
 😱 Screaming face
 😖 Confounded face	
@@ -99,7 +99,7 @@ printf "🙂 Slightly smiling face
 👿 Angry face with horns
 💀 Skull
 ☠  Skull and cross-bone
-💩 Pile of poo	
+💩 Pile of poo
 🤡 Clown
 👹 Ogre
 👺 Goblin
@@ -120,7 +120,7 @@ printf "🙂 Slightly smiling face
 🙉 Hear no evil monkey	
 🙊 Speak no evil monkey
 💋 Kiss
-💌 Love letter	
+💌 Love letter
 💘 Heart with arrow
 💝 HEart with ribbon
 💖 Sparking heart
@@ -136,12 +136,12 @@ printf "🙂 Slightly smiling face
 ❤ Red heart
 🧡 Orange heart
 💛 Yellow heart
-💚 Green heart	
+💚 Green heart
 💙 Blue heart
 💜 Purple heart
-🤎 Brown heart	
-🖤 Black heart	
-🤍 White heart	
+🤎 Brown heart
+🖤 Black heart
+🤍 White heart
 💯 Hundred(correct)
 💢 Anger
 💥 collision
@@ -155,8 +155,8 @@ printf "🙂 Slightly smiling face
 🗨 Left speech bubble
 🗯 Anger bubble
 💭 Thought baloon
-💤 zzz	
-👋 Waving hand	
+💤 zzz
+👋 Waving hand
 🤚 Raised back of hand	
 🖐 Hands with splayed finger
 ✋ Raised hand	
@@ -206,74 +206,74 @@ printf "🙂 Slightly smiling face
 🦷 Tooth
 🦴 Bone
 👀 Eyes
-👁 Eye	
+👁 Eye
 👅 Nose
 👄 Mouth
 🧑 Person
 👶 Baby
 🧒 Child
-👦 Boy	
+👦 Boy
 👧 Girl
-👱 Person with blonde hair	
-👨 Man	
+👱 Person with blonde hair
+👨 Man
 🧔 Bearded person
-🧔 ♂‍		Bearded man	
+🧔 ♂‍		Bearded man
 🧔 ♀‍		Bearded woman
 👨 🦰	MAn with red hair
-👨 🦱	Man with curly hair	
-👨 🦳	Man with white hair	
+👨 🦱	Man with curly hair
+👨 🦳	Man with white hair
 👨 🦲	Bald man
 👩 Woman
-👩 🦰	Woman with red hair	
+👩 🦰	Woman with red hair
 👩 🦱	Woman with curly hair
 👩 🦳	Woman with white hair
 👩 🦲	Bald woman
 👱 ♀‍		Woman with blode hair
 👱 ♂‍		Man with blonde hair
 🧓 Old person
-👴 Old man	
+👴 Old man
 👵 Old woman
-🙍 Person frowning	
+🙍 Person frowning
 🙍 ♂‍		Man frowning
 🙍 ♀‍		Woman frowning
 🙎 Person pouting
-🙎 ♂‍		Man pouting	
+🙎 ♂‍		Man pouting
 🙎 ♀‍		Woman pouting
-🙅 Person gesturing no	
+🙅 Person gesturing no
 🙅 ♂‍		Man gesturing no
 🙅 ♀‍		Woman gesturing no
 🙆 Person stretching
 🙆 ♂‍		Man stretching
 🙆 ♀‍		Woman stretching
-💁 Person tipping hand	
+💁 Person tipping hand
 💁 ♂‍		Man tipping hand
 💁 ♀‍		Woman tipping hand
 🙋 Person rainsing hand
 🙋 ♂‍		Man raising hand
 🙋 ♀‍		Woman raisning hand	
-🧏 Deaf person	
+🧏 Deaf person
 🧏 ♂‍		Deaf man
 🧏 ♀‍		Deaf woman
 🙇 Person bowing
 🙇 ♂‍		Man bowing
 🙇 ♀‍		Woman bowing
 🤦 Person facepalming
-🤦 ♂‍		Man facepalming	
+🤦 ♂‍		Man facepalming
 🤦 ♀‍		Woman facepalming
 🤷 Person shrugging
 🤷 ♂‍		Man shrugging
-🤷 ♀‍		Woman shrugging	
+🤷 ♀‍		Woman shrugging
 🧑 ⚕‍		Health worker
 👨 ⚕‍		Man health worker
-👩 ⚕‍		Woman health worker	
-🧑 🎓	Student	
-👨 🎓	Man student	
-🧑 🏫	Teacher	
-👨 🏫	Man teacher	
+👩 ⚕‍		Woman health worker
+🧑 🎓	Student
+👨 🎓	Man student
+🧑 🏫	Teacher
+👨 🏫	Man teacher
 👩 🏫	Woman teacher
 🧑 ⚖‍		Judge
 👨 ⚖‍		Man judge
-👩 ⚖‍		Woman judge	
+👩 ⚖‍		Woman judge
 🧑 🌾	Farmer
 👨 🌾	Man farmer
 👩 🌾	Woman farmer
@@ -2128,7 +2128,7 @@ DBOARD_CREDITS()
 
 DBOARD_ABOUT()
 {
-  printf "dboard 0.1\nReleased and licensed to you (the end user) under the GNU GPLv3 free software license.\nYou are using this software at your own risk."
+  printf "dboard 0.2\nReleased and licensed to you (the end user) under the GNU GPLv3 free software license.\nYou are using this software at your own risk."
 }
 
 ###########################################################
