@@ -2159,7 +2159,7 @@ elif [ "$ACTION" = "Credits" ]; then
 CREDIT_SEL=$(printf "$(DBOARD_CREDITS)" | dmenu -p 'dboard was created with the help of and by: ' -l 20 -g 1)
 case "$CREDIT_SEL" in
 "speedie - Wrote the script & Swedish characters") $BROWSER 'https://speedie.gq' ;;
-"jornmann - Helped out with some code") $BROWSER 'https://donut.gq' ;;
+"emily - Helped out with some code") $BROWSER 'https://donut.gq' ;;
 "Luke Smith - The idea") $BROWSER 'https://lukesmith.xyz' ;;
 "Lucss21a - Baybayin characters") $BROWSER 'https://alexisgaming95.neocities.org' ;;
 "Damaj301Damaj - Arabic characters") $BROWSER 'https://github.com/Damaj301damaj-lol' ;;
