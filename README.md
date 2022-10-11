@@ -1,5 +1,5 @@
 # dboard
-##### Expandable and customizable dmenu virtual keyboard for Linux with Emoji, Copypasta, Swedish/Finnish, Spanish, Chinese, Japanese, Baybain, and Arabic letter support.
+##### Expandable and customizable dmenu virtual keyboard for GNU/Linux with Emoji, Copypasta, Swedish/Finnish, Spanish, Chinese, Japanese, Baybain, and Arabic letter support.
 
 ![image](https://user-images.githubusercontent.com/71722170/166553916-2a36c6c7-5b0e-49f2-a670-06a620923b36.png)
 
