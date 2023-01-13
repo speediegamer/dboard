@@ -3,6 +3,9 @@
 
 ![image](https://user-images.githubusercontent.com/71722170/166553916-2a36c6c7-5b0e-49f2-a670-06a620923b36.png)
 
+## There's a new repository
+This project has moved. dboard can now be found [here](https://codeberg.org/speedie/speedwm-extras).
+
 ## What is this?
 dboard is a dmenu "keyboard" that opens a menu (dmenu) prompt with a list of characters. When the user selects one, it is automatically copied to the clipboard using xclip. You can then paste it anywhere you want.
 
